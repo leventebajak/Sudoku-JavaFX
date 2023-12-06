@@ -1,0 +1,20 @@
+.sudoku-cell {
+    -fx-alignment: center;
+    -fx-display-caret: false;
+    -fx-border-color: black;
+    -fx-background-radius: 0;
+    -fx-faint-focus-color: grey;
+    -fx-focus-color: transparent;
+}
+
+.non-editable {
+    -fx-text-fill: grey;
+}
+
+.sudoku-cell:focused {
+    -fx-background-color: lightgrey;
+}
+
+.new-game-button {
+    -fx-padding: 0 0 0 70;
+}
